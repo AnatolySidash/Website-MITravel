@@ -1,0 +1,8 @@
+.first__page {
+   height: 100vh;
+   min-height: 600px;
+   background-image: url(../../images/01_First_page/first_bg.jpg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
