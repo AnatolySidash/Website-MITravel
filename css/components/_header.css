@@ -49,6 +49,7 @@
    letter-spacing: 2px;
    color: var(--white);
    text-decoration: none;
+   text-transform: uppercase;
 }
 
 .burger {
