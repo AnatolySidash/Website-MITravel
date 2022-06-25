@@ -4,5 +4,11 @@
 @import "_vendor.css";
 @import "_global.css";
 @import "_overall.css";
+
+
+/* Components Import */
+
 @import "./components/_header.css";
 @import "./components/_first_page.css";
+@import "./components/_become.css";
+@import "./components/_featured.css";

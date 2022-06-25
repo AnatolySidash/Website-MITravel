@@ -85,13 +85,14 @@
    color: var(--dark);
    padding-left: 56px;
    padding-right: 100px;
+   box-shadow: inset 0px -2px 0px rgba(223, 223, 223, 0.5);
 }
 
 .search-form__button {
    width: 20px;
    height: 20px;
    border: none;
-   background-image: url(/images/01_First_page/search.svg);
+   background-image: url(../../images/01_First_page/search.svg);
    background-position: center;
    background-size: cover;
    background-repeat: no-repeat;
