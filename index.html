@@ -28,6 +28,7 @@
             </button>
          </div>
       </header>
+
       <main class="main">
          <section class="first__page">
             <div class="container first__container">
@@ -47,15 +48,15 @@
                   </form>
                   <div class="first__slider main-slider">
                      <div class="swiper-container">
-                        <div class="swiper-wrapper">
-                           <div class="swiper-slider">
+                        <div class="swiper-wrappers">
+                           <div class="swiper__slider">
                               <div class="main-slider__media">
                                  <img src="./images/01_First_page/photo.jpg" alt="Photo">
                               </div>
                               <p class="main-slider__text">Wonderful Mountain</p>
                            </div>
-                           <div class="swiper-slide"></div>
-                           <div class="swiper-slide"></div>
+                           <div class="swiper__slider"></div>
+                           <div class="swiper__slider"></div>
                         </div>
                      </div>
                   </div>
@@ -161,10 +162,35 @@
                   </div>
                </div>
          </section>
+
+         <section class="newsletter">
+            <div class="container">
+               <div class="newsletter__content">
+                  <div class="newsletter__block">
+                     <h2 class="newsletter__title section-title">Sign Up&nbsp;Our Newsletter</h2>
+                     <p class="newsletter__text">
+                        The state of&nbsp;Utah in&nbsp;the United States is&nbsp;home to&nbsp;lots of&nbsp;beautiful
+                        National
+                        Parks, &amp;&nbsp;Bryce Canyon National Park ranks as&nbsp;three of&nbsp;the most magnificent.
+                     </p>
+                  </div>
+                  <form action="" class="newsletter__form subscribe-form">
+                     <input type="text" name="name" placeholder="Name" class="subscribe-form__field">
+                     <input type="email" name="email" placeholder="Email" class="subscribe-form__field">
+                     <input type="tel" name="phone_number" placeholder="Phone number" class="subscribe-form__field">
+                     <button class="button button-reset subscribe-form__button">Sign Up Now</button>
+                  </form>
+               </div>
+            </div>
+         </section>
+
       </main>
+
    </div>
+
    <script src="./library/swiper.min.js"></script>
    <script src="./js/main.js"></script>
+
 </body>
 
 </html>
