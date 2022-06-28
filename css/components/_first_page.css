@@ -25,6 +25,12 @@
    font-weight: 800;
    display: inline-block;
    margin-bottom: 42px;
+   transition: all 0.2s linear;
+}
+
+.first__link:hover {
+   background-color: #fff;
+   color: #000;
 }
 
 .first__title {
@@ -56,6 +62,11 @@
    text-transform: uppercase;
    position: relative;
    z-index: 5;
+   transition: all 0.2s linear;
+}
+
+.first__button:hover {
+   background-color: var(--green);
 }
 
 .first__bottom {

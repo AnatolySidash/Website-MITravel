@@ -31,6 +31,12 @@
    text-transform: uppercase;
    text-align: center;
    margin-bottom: 16px;
+   transition: all 0.2s linear;
+}
+
+.blog-article__category:hover {
+   background-color: #fff;
+   color: #000;
 }
 
 .blog-article__title {
@@ -54,6 +60,10 @@
 
 .first-button--green {
    background-color: var(--green);
+}
+
+.first-button--green:hover {
+   background-color: var(--red);
 }
 
 .featured__stories {
