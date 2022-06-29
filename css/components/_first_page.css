@@ -121,6 +121,28 @@
    font-size: 0;
 }
 
+.main-slider__media {
+   width: 502px;
+   height: 280px;
+   overflow: hidden;
+}
+
+.main-slider__play {
+   position: absolute;
+   top: 37%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   width: 32px;
+   height: 41px;
+   background: url(../../images/01_First_page/play.svg) center no-repeat;
+   z-index: 30;
+}
+
+.main-slider__media video {
+   width: 100%;
+   height: auto;
+}
+
 .main-slider__text {
    height: 120px;
    display: flex;
@@ -132,6 +154,8 @@
    letter-spacing: 2.2px;
    text-transform: uppercase;
 }
+
+
 
 @media (max-height: 1079px) {
    .first__container {
